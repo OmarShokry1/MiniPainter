@@ -1,6 +1,9 @@
 import cv2
 import numpy as np
-import math
+
+from Rectangle import Rectangle
+from Circle import Circle
+from Polygon import Polygon
 
 class MiniPainter:
     WINDOW_NAME = "Mini Painter"
